@@ -1,14 +1,14 @@
-const Part = ({ part1, exercises1, part2, exercises2, part3, exercises3 }) => {
+const Part = ({ parts }) => {
   return (
     <div>
       <p>
-        {part1} {exercises1}
+        {parts[0].name} {parts[0].exercises}
       </p>
       <p>
-        {part2} {exercises2}
+        {parts[1].name} {parts[1].exercises}
       </p>
       <p>
-        {part3} {exercises3}
+        {parts[2].name} {parts[2].exercises}
       </p>
     </div>
   );
